@@ -1,6 +1,6 @@
 
 class String
-  class String
+
   CJKC_RANGES = [
     #20941 CJK Unified Ideographs block.
     (0x4E00..0x9FCC),
