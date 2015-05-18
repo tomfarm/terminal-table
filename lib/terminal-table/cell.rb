@@ -20,6 +20,7 @@ module Terminal
         @value = options.fetch :value, value
         @alignment = options.fetch :alignment, nil
         @colspan = options.fetch :colspan, 1
+        puts @value.inspect
         @width = options.fetch :width, @value.to_s.width
         @index = options.fetch :index
         @table = options.fetch :table
